@@ -1,5 +1,15 @@
-/* Navbar */
+/* Jonno Portfolio CSS */
+#header{
+
+}
+#footer{
+    
+}
 #navbar{
     overflow: hidden;
     background-color: #FFFFFF;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
