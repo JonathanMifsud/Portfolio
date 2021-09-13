@@ -1,15 +1,65 @@
 /* Jonno Portfolio CSS */
-#header{
 
-}
-#footer{
-    
-}
 #navbar{
     overflow: hidden;
-    background-color: #FFFFFF;
+    background-color: #0eeca9;
 }
+#navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Navigation Menu 
+.navbar {
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+/* Navigation menu links 
+.navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:aqua;
+    display: block;
+}
+.navbar a:hover{
+    color: #f1f1f1;
+}*/
 body{
-    background-color: #FFFFFF;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #ffffff;
+    font-family: "Sudo", sans-serif;
+}
+/* Page Content*/
+.main{
+    padding: 16px;
+}
+/* Sticky class added to navbar with JS when reaches scroll position*/
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* Add top padding to prevent quick movement*/
+.sticky + .main{
+    padding-top: 60px;
+}
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
 }
